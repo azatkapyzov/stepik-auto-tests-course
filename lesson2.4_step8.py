@@ -1,4 +1,4 @@
-
+# Эту строчку кода я добавил
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -28,7 +28,7 @@ try:
     input = browser.find_element_by_tag_name("input")
     input.send_keys(y)
 
-    # Отправляем заполненную форму
+    # а вот это я удалил
     button = browser.find_element_by_id("solve")
     button.click()
 
